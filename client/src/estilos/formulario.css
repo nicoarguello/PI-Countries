@@ -1,0 +1,85 @@
+
+.contenedor_f{
+    text-align: center;
+    width: 100%;
+    background-image: url("../imagenes/descarga8.jpg");
+    height: 900px;
+    padding: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-size: cover;
+}
+
+.formulario {
+    
+    width: 460px;
+    
+    margin: auto;
+    padding: 5px;
+    box-shadow: 0 0 20px 1px rgb(235, 223, 223);
+    position: relative;
+    background-color: rgba(5, 5, 44, 0.767);
+    border-radius: 2px;
+    border: black 2px solid;
+}
+.f_titulo{
+    font-size: 40px;
+    margin-bottom: 70px;
+    color: rgba(252, 252, 253, 0.767);
+}
+.titulo_form{
+  display: flex;    
+  margin: auto;
+  color: rgba(255, 255, 255, 0.705);
+}
+.f_input{
+    justify-content: center;
+    display: block;
+    width: 90%;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    color: black
+}
+.temporada{
+   
+    justify-content:space-between;
+    display: flexbox;
+    text-align:start;
+    align-content: space-around;
+    width: 90%;
+   
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 50px;
+}
+.estaciones{
+    font-size: 90%;
+    color: rgb(219, 215, 235);
+}
+.err{
+    display: flex;
+    text-align: left;
+    color: rgba(255, 136, 0, 0.774);
+    margin-bottom: 25px;
+}
+
+.f_buscar{
+    width: 250px;
+    height: 45px;
+    padding: 0;
+    margin-right: 30px;
+    color: blanchedalmond;
+    background-color: rgba(218, 199, 199, 0.234);
+    border-radius: 10px;
+}
+
+.f_link{
+    width: 20%;
+    height: 40px;
+    background-color: rgb(91, 98, 100);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: cornsilk;
+    border-radius: 10px;
+}

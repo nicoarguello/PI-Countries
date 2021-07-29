@@ -1,0 +1,190 @@
+.contenedor_h {
+  width: 100%;
+  height: 1200px;
+  justify-content: space-around;
+  background-image: url("../imagenes/descarga8.jpg");
+  /* background-color: rgb(35, 78, 189); */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-size: cover;
+}
+
+/* -------------Titulo-------------- */
+.titulo_h {
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 30%;
+  color: rgb(234, 234, 242);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 60px;
+  background-color: chartreuse;
+}
+/* -----------------Opciones de filtrado---------------- */
+.contenedor_opciones {
+  text-align: center;
+  margin: auto;
+  display: flex;
+  height: 60px;
+  width: 96.8%;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: rgba(11, 75, 47, 0.741); */
+}
+
+.div-b {
+  display: flex;
+  align-content: space-between;
+  margin-top: 1%;
+  width: 100%;
+  height: 35px;
+  /* background-color: rgba(141, 201, 57, 0.761); */
+}
+.boton_h1 {
+  margin: auto;
+  font-size: 12px;
+  display: flexbox;
+  text-align: center;
+  width: 160px;
+  height: 30px;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(20, 20, 39, 0.7);
+}
+.boton_h1:hover {
+  background-color: rgba(31, 65, 92, 0.405);
+}
+
+/* -------------------formulario y busqueda ------------ */
+
+.busqueda {
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 94%;
+  max-height: 40px;
+  /* background-color: rgb(165, 192, 81); */
+}
+.form_h {
+  width: 90%;
+  height: 30px;
+  /* background-color: aqua; */
+}
+.buscar_h {
+  width: 200px;
+  height: 23px;
+  margin: auto;
+  border-radius: 5px;
+}
+.busca_h:hover {
+  background-color: rgba(31, 65, 92, 0.405);
+}
+.busca_h {
+  width: 90px;
+  height: 30px;
+  margin: auto;
+
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(20, 20, 39, 0.7);
+}
+
+.agrega_b {
+  width: 250px;
+  height: 30px;
+  margin: auto;
+  padding: 2px;
+  border-radius: 5px;
+  color: aliceblue;
+  background-color: rgb(20, 20, 39, 0.7);
+}
+.agrega_b:hover {
+  background-color: rgba(31, 65, 92, 0.405);
+}
+/* ´´´´´´´´´´´´´´´´ */
+/* ---------------contenedor de paises----------------- */
+.paises_h {
+  width: 90%;
+  margin: auto;
+  background-color: rgb(20, 20, 39, 0.3);
+  column-count: 5;
+  /* column-width: 20%; */
+  margin-top: 100px;
+  color: #fff;
+  margin-bottom: 50px;
+  border: solid 1px rgb(20, 20, 39, 0.7);
+  padding-top: 20px;
+  padding-bottom: 30px;
+  /* align-content:flex-end; */
+}
+
+.bloque_paises {
+  text-align: center;
+  background-color: rgb(20, 20, 39, 0.7);
+  width: 85%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 60px;
+  /* margin-top: 20px; */
+  border: solid 2px rgba(0, 0, 0, 0.467);
+  /* border-radius: 100%; */
+  font-size: 12px;
+  padding: 2%;
+  
+}
+.bloque_paises:hover {
+  background-color: rgba(31, 65, 92, 0.405);
+}
+
+.img_h {
+  width: 80%;
+  height: 45%;
+  border-radius: 2%;
+  border: 2px solid #fff;
+  margin: auto;
+  margin-top: 40px;
+  object-fit: cover;
+}
+.img_h:hover {
+  width: 90%;
+  height: 50%;
+}
+/* ---------------------- */
+/* ------------------Botones paginado-------------------- */
+.div_btn {
+  width: 80%;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  /* background-color: rgba(165, 42, 42, 0.761); */
+  padding-top: 50px;
+  /* padding-bottom: 3px; */
+  margin-bottom: 300px;
+}
+.btn_h {
+  font-size: 15px;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  /* margin: 5px; */
+  color: #fff;
+  background-color: rgb(20, 20, 39, 0.7);
+}
+.btn_h:hover {
+  background-color: rgba(31, 65, 92, 0.405);
+}
+
+.num{
+  text-align: center;
+  font-size: 13px;
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  /* margin: 5px; */
+  color: #fff;
+  background-color: rgba(20, 20, 39, 0);
+}
+/* ------------------------------------------------------- */

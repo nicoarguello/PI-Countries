@@ -1,0 +1,60 @@
+.inicio11 {
+ background-image: url("../imagenes/descarga7.jpg");
+  background-color: rgba(49, 49, 13, 0.665);
+  width: 100%;
+  min-height: 1000px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  background-size: cover;
+}
+.buscar_titulo{
+  color: beige;
+}
+
+
+.cont_buscar {
+  background-color: rgba(36, 25, 25, 0.205);
+  text-align: center;
+  display: inline-block;
+  width: 90%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border:rgba(0, 1, 3, 0.562) solid 1px;
+}
+
+.img_buscar {
+  margin: auto;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 45%;
+  border-radius: 2%;
+  border: 2px solid #fff;
+
+  object-fit: cover;
+}
+
+/* p {
+  justify-content: start;
+  text-align: center;
+  justify-content: space-between;
+  height: auto;
+} */
+
+.link {
+  
+  margin: auto;
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+}
+
+.error{
+  font-size: 40px;
+  font-family:'Courier New', Courier, monospace;
+  color: #fff;
+}
